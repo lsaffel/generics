@@ -30,7 +30,7 @@ int main()
     cout << c << " - " << d << endl;
 
     Swap<char>(c, d);       // <char> is not necessary here either.
-            // the type happens atuomatically if you just put:
+            // the type happens automatically if you just put:
             // Swap(c, d);
     cout << c << " - " << d << endl;
 
